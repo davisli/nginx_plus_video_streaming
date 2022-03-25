@@ -6,9 +6,9 @@ NGINX configurations are included for your lab test. <br>
 How to overcome frames freezing up after a failed LB/Cache node gets UP again. <br>
 Failover has no impact to video streaming, it is when a failed node recovered we see an issue with HLS. (DASH is fine) <br>
 
-Documentation Contents
-  Challenges
-  Fact finding customer’s current architecture
+<p> Documentation Contents
+  <br> Challenges
+  <br> Fact finding customer’s current architecture
   Enhanced Streaming Distribution Design with NGINX Plus
     Benefits of NGINX Plus
   Learnings
