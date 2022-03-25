@@ -9,26 +9,16 @@ Failover has no impact to video streaming, it is when a failed node recovered we
 <p> Documentation Contents
   <br> Challenges
   <br> Fact finding customer’s current architecture
-  Enhanced Streaming Distribution Design with NGINX Plus
-    Benefits of NGINX Plus
-  Learnings
-    HLS Behaviour in a Worker Node Failover Scenario
-    HLS Behaviour – Frames out of Sync/Frozen Frame after down instance UP again
-    Possible operation improvement to address high availability
-    Details of fragments out-of-sync observed
-  Our Testing Environment
-    Start Video Broadcast (10 minutes video)
-      Stream script
-      At Worker 1 and 2, you will see the fragments being populated.
-  Launch Video Client
-    Prove caching from JMeter Test
-    Show NGINX Plus Dashboard
-  Simulate Failover
-    Stop nginx process in Worker 1 to simulate a failure
-  NGINX Plus Configurations
-    Ingest Server
-    Worker Nodes (Same for all Nodes)
-    LB/Cache Nodes (“Peace” Time)
-    LB/Cache Nodes (“Failover” Time)
-  JMeter Setup – Load Testing, Concurrent Users/Threads Test
-  Grafana Dashboard (Optional)
+  <br> Enhanced Streaming Distribution Design with NGINX Plus
+  <br> Benefits of NGINX Plus
+  <br> HLS Behaviour in a Worker Node Failover Scenario
+  <br> HLS Behaviour – Frames out of Sync/Frozen Frame after down instance UP again
+  <br> Possible operation improvement to address high availability
+  <br> Details of fragments out-of-sync observed
+  <br> Our Testing Environment
+  <br> Prove caching from JMeter Test
+  <br> Show NGINX Plus Dashboard
+  <br> Simulate Failover
+  <br> NGINX Plus Configurations
+  <br> JMeter Setup – Load Testing, Concurrent Users/Threads Test
+  <br> Grafana Dashboard (Optional)
