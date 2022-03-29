@@ -1,0 +1,3 @@
+Ingest describes the technology used to transport video files from the encoder to the streaming media server. RTMP ingest means using the RTMP technology to encode and then deliver the live video from the encoder to the online video platform. 
+
+Encoding is when you take an uncompressed, raw video source and compress it. Typically this is done to create a smaller file, because it's easier to use with more devices. Transcoding is when you take an already compressed video source, and transfer it to a different format.
